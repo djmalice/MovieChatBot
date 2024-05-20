@@ -7,7 +7,7 @@ USER user
 ENV HOME=/home/user/ \
     PATH=/home/user/.local/bin:$PATH
 WORKDIR $HOME/movieapp
-COPY --chown user . $HOME/movieapp/
+COPY --chown=user . $HOME/movieapp/
 COPY ./requirements.txt ~/movieapp/requirements.txt
 
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
