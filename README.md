@@ -2,12 +2,15 @@
 
 This project builds a **Retrieval-Augmented Generation (RAG)** system for **movie recommendations**, leveraging **FAISS** for efficient similarity search and deploying the solution via **Hugging Face** using **Chainlit** for an interactive experience.  
 
+🔗 **Live Demo:** [MovieChatBot on Hugging Face](https://huggingface.co/spaces/chintansheth87/MovieChatBot)  
+
 ## 🚀 Features  
 
 - **Question-Answering System**: Provides movie recommendations based on natural language queries.  
 - **Vector Search with FAISS**: Uses Facebook AI Similarity Search (FAISS) for efficient retrieval of relevant movies.  
 - **Hugging Face Deployment**: Hosted and accessible via Hugging Face Spaces.  
 - **Interactive UI with Chainlit**: Enables an intuitive and conversational experience for users.  
+- **OpenAI API Calls with LangChain Runnable**: Uses LangChain's runnable framework to make API calls to OpenAI for enhanced responses.  
 
 ## 🛠️ Tech Stack  
 
@@ -15,6 +18,7 @@ This project builds a **Retrieval-Augmented Generation (RAG)** system for **movi
 - **Hugging Face**: Model hosting and inference.  
 - **Chainlit**: Frontend for conversational interactions.  
 - **Python**: Backend implementation.  
+- **LangChain Runnable**: Enables structured OpenAI API calls for generating responses.  
 
 ## 🔧 Installation  
 
